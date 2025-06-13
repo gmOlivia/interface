@@ -33,9 +33,14 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.NOme = new System.Windows.Forms.TextBox();
+            this.Email = new System.Windows.Forms.TextBox();
+            this.Senha = new System.Windows.Forms.TextBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.mySqlDataAdapter1 = new MySql.Data.MySqlClient.MySqlDataAdapter();
+            this.txtid = new System.Windows.Forms.TextBox();
+            this.button2 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -75,7 +80,7 @@
             this.label4.ForeColor = System.Drawing.Color.SaddleBrown;
             this.label4.Location = new System.Drawing.Point(49, 58);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(327, 43);
+            this.label4.Size = new System.Drawing.Size(317, 42);
             this.label4.TabIndex = 3;
             this.label4.Text = "Cadastro Usuário:";
             // 
@@ -87,38 +92,80 @@
             this.button1.Font = new System.Drawing.Font("Source Code Pro", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(57, 354);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(93, 28);
+            this.button1.Size = new System.Drawing.Size(110, 28);
             this.button1.TabIndex = 4;
             this.button1.Text = "cadastrar";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox1
+            // NOme
             // 
-            this.textBox1.BackColor = System.Drawing.Color.Tan;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Location = new System.Drawing.Point(130, 153);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 5;
+            this.NOme.BackColor = System.Drawing.Color.Tan;
+            this.NOme.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.NOme.Location = new System.Drawing.Point(130, 153);
+            this.NOme.Name = "NOme";
+            this.NOme.Size = new System.Drawing.Size(100, 22);
+            this.NOme.TabIndex = 5;
             // 
-            // textBox2
+            // Email
             // 
-            this.textBox2.BackColor = System.Drawing.Color.Tan;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.Location = new System.Drawing.Point(130, 215);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 6;
+            this.Email.BackColor = System.Drawing.Color.Tan;
+            this.Email.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Email.Location = new System.Drawing.Point(130, 215);
+            this.Email.Name = "Email";
+            this.Email.Size = new System.Drawing.Size(100, 22);
+            this.Email.TabIndex = 6;
             // 
-            // textBox3
+            // Senha
             // 
-            this.textBox3.BackColor = System.Drawing.Color.Tan;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox3.Location = new System.Drawing.Point(130, 283);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 22);
-            this.textBox3.TabIndex = 7;
+            this.Senha.BackColor = System.Drawing.Color.Tan;
+            this.Senha.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Senha.Location = new System.Drawing.Point(130, 283);
+            this.Senha.Name = "Senha";
+            this.Senha.Size = new System.Drawing.Size(100, 22);
+            this.Senha.TabIndex = 7;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.Tan;
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(402, 112);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(349, 270);
+            this.dataGridView1.TabIndex = 8;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // mySqlDataAdapter1
+            // 
+            this.mySqlDataAdapter1.DeleteCommand = null;
+            this.mySqlDataAdapter1.InsertCommand = null;
+            this.mySqlDataAdapter1.SelectCommand = null;
+            this.mySqlDataAdapter1.UpdateCommand = null;
+            // 
+            // txtid
+            // 
+            this.txtid.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.txtid.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtid.Location = new System.Drawing.Point(130, 112);
+            this.txtid.Name = "txtid";
+            this.txtid.Size = new System.Drawing.Size(100, 15);
+            this.txtid.TabIndex = 9;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Tan;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.Location = new System.Drawing.Point(197, 354);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(103, 28);
+            this.button2.TabIndex = 10;
+            this.button2.Text = "Excluir";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // usuario
             // 
@@ -126,9 +173,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AntiqueWhite;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.txtid);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.Senha);
+            this.Controls.Add(this.Email);
+            this.Controls.Add(this.NOme);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -136,6 +186,8 @@
             this.Controls.Add(this.label1);
             this.Name = "usuario";
             this.Text = "usuario";
+            this.Load += new System.EventHandler(this.usuario_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -148,8 +200,12 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox NOme;
+        private System.Windows.Forms.TextBox Email;
+        private System.Windows.Forms.TextBox Senha;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private MySql.Data.MySqlClient.MySqlDataAdapter mySqlDataAdapter1;
+        private System.Windows.Forms.TextBox txtid;
+        private System.Windows.Forms.Button button2;
     }
 }
