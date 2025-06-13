@@ -9,3 +9,4 @@ C:\Users\Aluno\Documents\GitHub\interface\WindowsFormsApp1\WindowsFormsApp1\obj\
 C:\Users\Aluno\Documents\GitHub\interface\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\Aluno\Documents\GitHub\interface\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 C:\Users\Aluno\Documents\GitHub\interface\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Loja.resources
+C:\Users\Aluno\Documents\GitHub\interface\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.saibamais.resources

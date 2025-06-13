@@ -33,5 +33,11 @@ namespace WindowsFormsApp1
             saibamais saibamais = new saibamais();
             saibamais.ShowDialog();
         }
+
+        private void btnCarrinho_Click(object sender, EventArgs e)
+        {
+            carrinho carrinho = new carrinho();
+            carrinho.ShowDialog();
+        }
     }
 }

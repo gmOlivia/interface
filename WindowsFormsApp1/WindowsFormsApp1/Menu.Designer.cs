@@ -61,6 +61,7 @@
             // 
             // btnCarrinho
             // 
+            this.btnCarrinho.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCarrinho.FlatAppearance.BorderColor = System.Drawing.Color.AntiqueWhite;
             this.btnCarrinho.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCarrinho.Font = new System.Drawing.Font("Source Code Pro", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -71,9 +72,11 @@
             this.btnCarrinho.Size = new System.Drawing.Size(49, 46);
             this.btnCarrinho.TabIndex = 6;
             this.btnCarrinho.UseVisualStyleBackColor = true;
+            this.btnCarrinho.Click += new System.EventHandler(this.btnCarrinho_Click);
             // 
             // btnUser
             // 
+            this.btnUser.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnUser.FlatAppearance.BorderColor = System.Drawing.Color.AntiqueWhite;
             this.btnUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUser.Font = new System.Drawing.Font("Source Code Pro", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -88,6 +91,7 @@
             // 
             // btnPontos
             // 
+            this.btnPontos.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPontos.FlatAppearance.BorderColor = System.Drawing.Color.AntiqueWhite;
             this.btnPontos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPontos.Font = new System.Drawing.Font("Source Code Pro", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -101,6 +105,7 @@
             // 
             // btnEncomendas
             // 
+            this.btnEncomendas.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEncomendas.FlatAppearance.BorderColor = System.Drawing.Color.AntiqueWhite;
             this.btnEncomendas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEncomendas.Font = new System.Drawing.Font("Source Code Pro", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -114,6 +119,7 @@
             // 
             // btnCardapio
             // 
+            this.btnCardapio.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCardapio.FlatAppearance.BorderColor = System.Drawing.Color.AntiqueWhite;
             this.btnCardapio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCardapio.Font = new System.Drawing.Font("Source Code Pro", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -127,6 +133,7 @@
             // 
             // btnLoja
             // 
+            this.btnLoja.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLoja.FlatAppearance.BorderColor = System.Drawing.Color.AntiqueWhite;
             this.btnLoja.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLoja.Font = new System.Drawing.Font("Source Code Pro", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
