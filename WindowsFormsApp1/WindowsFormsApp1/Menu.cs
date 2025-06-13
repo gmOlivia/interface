@@ -27,5 +27,11 @@ namespace WindowsFormsApp1
         {
             
         }
+
+        private void btnSaibamais_Click(object sender, EventArgs e)
+        {
+            saibamais saibamais = new saibamais();
+            saibamais.ShowDialog();
+        }
     }
 }

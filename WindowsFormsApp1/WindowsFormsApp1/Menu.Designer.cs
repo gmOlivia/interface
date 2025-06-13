@@ -30,16 +30,16 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnCarrinho = new System.Windows.Forms.Button();
+            this.btnUser = new System.Windows.Forms.Button();
+            this.btnPontos = new System.Windows.Forms.Button();
+            this.btnEncomendas = new System.Windows.Forms.Button();
+            this.btnCardapio = new System.Windows.Forms.Button();
+            this.btnLoja = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnSaibamais = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnLoja = new System.Windows.Forms.Button();
-            this.btnCardapio = new System.Windows.Forms.Button();
-            this.btnEncomendas = new System.Windows.Forms.Button();
-            this.btnPontos = new System.Windows.Forms.Button();
-            this.btnUser = new System.Windows.Forms.Button();
-            this.btnCarrinho = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -59,6 +59,97 @@
             this.panel1.Size = new System.Drawing.Size(803, 117);
             this.panel1.TabIndex = 0;
             // 
+            // btnCarrinho
+            // 
+            this.btnCarrinho.FlatAppearance.BorderColor = System.Drawing.Color.AntiqueWhite;
+            this.btnCarrinho.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCarrinho.Font = new System.Drawing.Font("Source Code Pro", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCarrinho.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(66)))), ((int)(((byte)(51)))));
+            this.btnCarrinho.Image = ((System.Drawing.Image)(resources.GetObject("btnCarrinho.Image")));
+            this.btnCarrinho.Location = new System.Drawing.Point(744, 11);
+            this.btnCarrinho.Name = "btnCarrinho";
+            this.btnCarrinho.Size = new System.Drawing.Size(49, 46);
+            this.btnCarrinho.TabIndex = 6;
+            this.btnCarrinho.UseVisualStyleBackColor = true;
+            // 
+            // btnUser
+            // 
+            this.btnUser.FlatAppearance.BorderColor = System.Drawing.Color.AntiqueWhite;
+            this.btnUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUser.Font = new System.Drawing.Font("Source Code Pro", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUser.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(66)))), ((int)(((byte)(51)))));
+            this.btnUser.Image = ((System.Drawing.Image)(resources.GetObject("btnUser.Image")));
+            this.btnUser.Location = new System.Drawing.Point(693, 9);
+            this.btnUser.Name = "btnUser";
+            this.btnUser.Size = new System.Drawing.Size(49, 46);
+            this.btnUser.TabIndex = 5;
+            this.btnUser.UseVisualStyleBackColor = true;
+            this.btnUser.Click += new System.EventHandler(this.btnUser_Click);
+            // 
+            // btnPontos
+            // 
+            this.btnPontos.FlatAppearance.BorderColor = System.Drawing.Color.AntiqueWhite;
+            this.btnPontos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPontos.Font = new System.Drawing.Font("Source Code Pro", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPontos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(66)))), ((int)(((byte)(51)))));
+            this.btnPontos.Location = new System.Drawing.Point(497, 3);
+            this.btnPontos.Name = "btnPontos";
+            this.btnPontos.Size = new System.Drawing.Size(98, 30);
+            this.btnPontos.TabIndex = 4;
+            this.btnPontos.Text = "Pontos";
+            this.btnPontos.UseVisualStyleBackColor = true;
+            // 
+            // btnEncomendas
+            // 
+            this.btnEncomendas.FlatAppearance.BorderColor = System.Drawing.Color.AntiqueWhite;
+            this.btnEncomendas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEncomendas.Font = new System.Drawing.Font("Source Code Pro", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEncomendas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(66)))), ((int)(((byte)(51)))));
+            this.btnEncomendas.Location = new System.Drawing.Point(384, 3);
+            this.btnEncomendas.Name = "btnEncomendas";
+            this.btnEncomendas.Size = new System.Drawing.Size(111, 30);
+            this.btnEncomendas.TabIndex = 3;
+            this.btnEncomendas.Text = "Encomendas";
+            this.btnEncomendas.UseVisualStyleBackColor = true;
+            // 
+            // btnCardapio
+            // 
+            this.btnCardapio.FlatAppearance.BorderColor = System.Drawing.Color.AntiqueWhite;
+            this.btnCardapio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCardapio.Font = new System.Drawing.Font("Source Code Pro", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCardapio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(66)))), ((int)(((byte)(51)))));
+            this.btnCardapio.Location = new System.Drawing.Point(287, 3);
+            this.btnCardapio.Name = "btnCardapio";
+            this.btnCardapio.Size = new System.Drawing.Size(98, 30);
+            this.btnCardapio.TabIndex = 2;
+            this.btnCardapio.Text = "Cardápio";
+            this.btnCardapio.UseVisualStyleBackColor = true;
+            // 
+            // btnLoja
+            // 
+            this.btnLoja.FlatAppearance.BorderColor = System.Drawing.Color.AntiqueWhite;
+            this.btnLoja.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLoja.Font = new System.Drawing.Font("Source Code Pro", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLoja.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(66)))), ((int)(((byte)(51)))));
+            this.btnLoja.Location = new System.Drawing.Point(190, 3);
+            this.btnLoja.Name = "btnLoja";
+            this.btnLoja.Size = new System.Drawing.Size(98, 30);
+            this.btnLoja.TabIndex = 1;
+            this.btnLoja.Text = "Loja";
+            this.btnLoja.UseVisualStyleBackColor = true;
+            this.btnLoja.Click += new System.EventHandler(this.btnLoja_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(12, 43);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(87, 38);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -68,7 +159,7 @@
             this.label1.Image = ((System.Drawing.Image)(resources.GetObject("label1.Image")));
             this.label1.Location = new System.Drawing.Point(226, 200);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(357, 52);
+            this.label1.Size = new System.Drawing.Size(347, 52);
             this.label1.TabIndex = 0;
             this.label1.Text = "Descubra o Sabor";
             // 
@@ -98,97 +189,7 @@
             this.btnSaibamais.TabIndex = 2;
             this.btnSaibamais.Text = "Saiba Mais";
             this.btnSaibamais.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 43);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(87, 38);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // btnLoja
-            // 
-            this.btnLoja.FlatAppearance.BorderColor = System.Drawing.Color.AntiqueWhite;
-            this.btnLoja.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLoja.Font = new System.Drawing.Font("Source Code Pro", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLoja.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(66)))), ((int)(((byte)(51)))));
-            this.btnLoja.Location = new System.Drawing.Point(190, 3);
-            this.btnLoja.Name = "btnLoja";
-            this.btnLoja.Size = new System.Drawing.Size(98, 30);
-            this.btnLoja.TabIndex = 1;
-            this.btnLoja.Text = "Loja";
-            this.btnLoja.UseVisualStyleBackColor = true;
-            this.btnLoja.Click += new System.EventHandler(this.btnLoja_Click);
-            // 
-            // btnCardapio
-            // 
-            this.btnCardapio.FlatAppearance.BorderColor = System.Drawing.Color.AntiqueWhite;
-            this.btnCardapio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCardapio.Font = new System.Drawing.Font("Source Code Pro", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCardapio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(66)))), ((int)(((byte)(51)))));
-            this.btnCardapio.Location = new System.Drawing.Point(287, 3);
-            this.btnCardapio.Name = "btnCardapio";
-            this.btnCardapio.Size = new System.Drawing.Size(98, 30);
-            this.btnCardapio.TabIndex = 2;
-            this.btnCardapio.Text = "Cardápio";
-            this.btnCardapio.UseVisualStyleBackColor = true;
-            // 
-            // btnEncomendas
-            // 
-            this.btnEncomendas.FlatAppearance.BorderColor = System.Drawing.Color.AntiqueWhite;
-            this.btnEncomendas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEncomendas.Font = new System.Drawing.Font("Source Code Pro", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEncomendas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(66)))), ((int)(((byte)(51)))));
-            this.btnEncomendas.Location = new System.Drawing.Point(384, 3);
-            this.btnEncomendas.Name = "btnEncomendas";
-            this.btnEncomendas.Size = new System.Drawing.Size(111, 30);
-            this.btnEncomendas.TabIndex = 3;
-            this.btnEncomendas.Text = "Encomendas";
-            this.btnEncomendas.UseVisualStyleBackColor = true;
-            // 
-            // btnPontos
-            // 
-            this.btnPontos.FlatAppearance.BorderColor = System.Drawing.Color.AntiqueWhite;
-            this.btnPontos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPontos.Font = new System.Drawing.Font("Source Code Pro", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPontos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(66)))), ((int)(((byte)(51)))));
-            this.btnPontos.Location = new System.Drawing.Point(497, 3);
-            this.btnPontos.Name = "btnPontos";
-            this.btnPontos.Size = new System.Drawing.Size(98, 30);
-            this.btnPontos.TabIndex = 4;
-            this.btnPontos.Text = "Pontos";
-            this.btnPontos.UseVisualStyleBackColor = true;
-            // 
-            // btnUser
-            // 
-            this.btnUser.FlatAppearance.BorderColor = System.Drawing.Color.AntiqueWhite;
-            this.btnUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUser.Font = new System.Drawing.Font("Source Code Pro", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUser.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(66)))), ((int)(((byte)(51)))));
-            this.btnUser.Image = ((System.Drawing.Image)(resources.GetObject("btnUser.Image")));
-            this.btnUser.Location = new System.Drawing.Point(713, 3);
-            this.btnUser.Name = "btnUser";
-            this.btnUser.Size = new System.Drawing.Size(42, 39);
-            this.btnUser.TabIndex = 5;
-            this.btnUser.UseVisualStyleBackColor = true;
-            this.btnUser.Click += new System.EventHandler(this.btnUser_Click);
-            // 
-            // btnCarrinho
-            // 
-            this.btnCarrinho.FlatAppearance.BorderColor = System.Drawing.Color.AntiqueWhite;
-            this.btnCarrinho.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCarrinho.Font = new System.Drawing.Font("Source Code Pro", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCarrinho.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(66)))), ((int)(((byte)(51)))));
-            this.btnCarrinho.Image = ((System.Drawing.Image)(resources.GetObject("btnCarrinho.Image")));
-            this.btnCarrinho.Location = new System.Drawing.Point(755, 3);
-            this.btnCarrinho.Name = "btnCarrinho";
-            this.btnCarrinho.Size = new System.Drawing.Size(42, 39);
-            this.btnCarrinho.TabIndex = 6;
-            this.btnCarrinho.UseVisualStyleBackColor = true;
+            this.btnSaibamais.Click += new System.EventHandler(this.btnSaibamais_Click);
             // 
             // Menu
             // 

@@ -16,5 +16,21 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCarrinho_Click_1(object sender, EventArgs e)
+        {
+            carrinho carrinho = new carrinho();
+            carrinho.ShowDialog();
+        }
     }
 }

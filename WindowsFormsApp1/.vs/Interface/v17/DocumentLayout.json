@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{26EB66A9-3379-4AC3-9294-7B57942CA620}|WindowsFormsApp1\\Interface.csproj|solutionrelative:windowsformsapp1\\loja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26EB66A9-3379-4AC3-9294-7B57942CA620}|WindowsFormsApp1\\Interface.csproj|c:\\users\\aluno\\documents\\github\\interface\\windowsformsapp1\\windowsformsapp1\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{26EB66A9-3379-4AC3-9294-7B57942CA620}|WindowsFormsApp1\\Interface.csproj|solutionrelative:windowsformsapp1\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{26EB66A9-3379-4AC3-9294-7B57942CA620}|WindowsFormsApp1\\Interface.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\interface\\WindowsFormsApp1\\windowsformsapp1\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26EB66A9-3379-4AC3-9294-7B57942CA620}|WindowsFormsApp1\\Interface.csproj|solutionrelative:windowsformsapp1\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26EB66A9-3379-4AC3-9294-7B57942CA620}|WindowsFormsApp1\\Interface.csproj|c:\\users\\aluno\\documents\\github\\interface\\windowsformsapp1\\windowsformsapp1\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26EB66A9-3379-4AC3-9294-7B57942CA620}|WindowsFormsApp1\\Interface.csproj|solutionrelative:windowsformsapp1\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26EB66A9-3379-4AC3-9294-7B57942CA620}|WindowsFormsApp1\\Interface.csproj|c:\\users\\aluno\\documents\\github\\interface\\windowsformsapp1\\windowsformsapp1\\saibamais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26EB66A9-3379-4AC3-9294-7B57942CA620}|WindowsFormsApp1\\Interface.csproj|solutionrelative:windowsformsapp1\\saibamais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26EB66A9-3379-4AC3-9294-7B57942CA620}|WindowsFormsApp1\\Interface.csproj|c:\\users\\aluno\\documents\\github\\interface\\windowsformsapp1\\windowsformsapp1\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{26EB66A9-3379-4AC3-9294-7B57942CA620}|WindowsFormsApp1\\Interface.csproj|solutionrelative:windowsformsapp1\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,32 +26,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\interface\\WindowsFormsApp1\\WindowsFormsApp1\\Menu.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\Menu.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\interface\\WindowsFormsApp1\\WindowsFormsApp1\\Menu.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\Menu.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAIA6wBsAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T12:35:46.124Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Menu.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\interface\\WindowsFormsApp1\\WindowsFormsApp1\\Menu.cs",
               "RelativeDocumentMoniker": "WindowsFormsApp1\\Menu.cs",
               "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\interface\\WindowsFormsApp1\\WindowsFormsApp1\\Menu.cs [Design]",
               "RelativeToolTip": "WindowsFormsApp1\\Menu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T11:13:07.143Z",
+              "WhenOpened": "2025-06-13T14:05:50.846Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "saibamais.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\interface\\WindowsFormsApp1\\WindowsFormsApp1\\saibamais.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\saibamais.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\interface\\WindowsFormsApp1\\WindowsFormsApp1\\saibamais.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\saibamais.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T13:40:46.063Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\interface\\WindowsFormsApp1\\WindowsFormsApp1\\Menu.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Menu.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\interface\\WindowsFormsApp1\\WindowsFormsApp1\\Menu.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Menu.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAcwCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T12:35:46.124Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
